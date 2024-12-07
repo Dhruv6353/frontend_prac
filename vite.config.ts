@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "build", // Change this to the desired output directory
+    outDir: "dist", // Change this to the desired output directory
   },
 
   resolve: {
